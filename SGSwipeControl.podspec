@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author        = { "Spiros Gerokostas" => "spiros.gerokostas@gmail.com" }
   s.source        = { :git => "https://github.com/sger/SGSwipeControl.git", :tag => "0.0.1" }
   s.source_files  = 'SGSwipeControl'
+  s.summary       = 'SGSwipeControl'
   s.frameworks    = 'Foundation', 'CoreGraphics'
   s.requires_arc  = true
 end
