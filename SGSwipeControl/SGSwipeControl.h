@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Spiros Gerokostas. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 @protocol SGSwipeDelegate;
 
 @interface SGSwipeControl : UIControl <UIScrollViewDelegate>

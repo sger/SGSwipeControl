@@ -4,9 +4,10 @@ Pod::Spec.new do |s|
   s.homepage      = "https://github.com/sger/SGSwipeControl"
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "Spiros Gerokostas" => "spiros.gerokostas@gmail.com" }
-  s.source        = { :git => "https://github.com/sger/SGSwipeControl.git", :tag => "v#{spec.version}" }
+  s.source        = { :git => "https://github.com/sger/SGSwipeControl.git", :tag => "v#{s.version}" }
   s.source_files  = 'SGSwipeControl'
   s.summary       = 'SGSwipeControl'
-  s.frameworks    = 'Foundation', 'CoreGraphics'
+  s.frameworks    = 'UIKit', 'CoreGraphics'
+  s.platform      = :ios, '6.0'
   s.requires_arc  = true
 end
